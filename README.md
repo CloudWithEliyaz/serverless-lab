@@ -52,8 +52,6 @@ We need to create a custom policy for least privilege
 2. Click "Create policy" on top right corner
 3. In the policy editor, click JSON, and paste the following 
 
-<img width="1251" height="846" alt="image" src="https://github.com/user-attachments/assets/9bc29767-a005-4abc-a033-2cc60614a9e4" />
-
 
 ```json
 {
@@ -73,7 +71,7 @@ We need to create a custom policy for least privilege
       "Resource": "*"
     },
     {
-      "Sid": "",
+      "Sid": "Stmt2",
       "Resource": "*",
       "Action": [
         "logs:CreateLogGroup",
@@ -86,6 +84,8 @@ We need to create a custom policy for least privilege
     }
 ```
 4. Give name "lambda-custom-policy", and click "Create policy" on botom right
+
+<img width="1251" height="846" alt="image" src="https://github.com/user-attachments/assets/9bc29767-a005-4abc-a033-2cc60614a9e4" />
 
 ### Create Lambda IAM Role 
 
@@ -117,7 +117,8 @@ To create an execution role
 
 3. Click "Create function"
 
-![Lambda basic information](./images/lambda-basic-info.jpg)
+<img width="1268" height="855" alt="image" src="https://github.com/user-attachments/assets/6faccf56-3569-4b08-9ec6-96af33294190" />
+
 
 4. Replace the boilerplate coding with the following code snippet and click "Deploy"
 
