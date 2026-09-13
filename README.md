@@ -52,7 +52,8 @@ We need to create a custom policy for least privilege
 2. Click "Create policy" on top right corner
 3. In the policy editor, click JSON, and paste the following 
 
-![Create policy](./images/create-policy.jpg)
+<img width="1251" height="846" alt="image" src="https://github.com/user-attachments/assets/9bc29767-a005-4abc-a033-2cc60614a9e4" />
+
 
 ```json
 {
